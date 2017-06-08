@@ -1,0 +1,117 @@
+body { background:#9BB4FF url(images/bluewave.jpeg) repeat-x; margin:1; }
+#pw1 { background-image:url(images/bluewave.jpeg); background-position:center top; background-repeat:repeat-y; }
+#pw2 { background-image:url(images/bluewave.jpeg); background-position:center top; background-repeat:no-repeat; text-align:center; }
+#pw3 { width:776px; margin:0px auto; padding:30 0 23 0; background-image:url(images/bluewave.jpeg); background-position:center bottom; background-repeat:no-repeat; text-align:left; }
+#pw4 { padding:0 13; min-height:600px; _height:600; }
+#pw5 { background-color:#FFF; width:100% }
+
+#fw1 { background-image:url(images/bluewave.jpeg); background-position:center top; background-repeat:repeat-y; text-align:center; }
+#fw2 { width:776px; margin:0px auto; background-image:url(images/bluewave.jpeg); background-position:center top; background-repeat:no-repeat; text-align:left; }
+#fw3 { padding:23 13; background-image:url(images/bluewave.jpeg); background-position:center bottom; background-repeat:no-repeat; }
+#fw4 { background:#0000FF; width:100%; }
+#ft1 { padding:0 10 10 10; }
+#fb1 { padding:10 10 0 10; }
+#ft2, #fb2 { width:730; }
+#fc1 { padding:10 20; background:#435729; }
+#fc2 { width:710; }
+
+/* Header */
+#header { background:#red; margin-bottom:5; padding-right:20; }
+#hdtxt { float:right; font-family:verdana; font-weight:bold; font-size:15px; color:#666; width:450; text-align:right; margin:0 0 10 0;  }
+#logo { float:left; }
+#hdtext { float:right; font-family:verdana; font-weight:bold; font-size:15px; color:#666; margin-bottom:10; }
+#hdimgs{ float:right; margin-bottom:10; }
+#hdimgs div { float:left; padding-left:15; }
+
+
+/* Nav Bar */
+#navbar { background:#81BEF7 url(images/bluewave.jpeg); width:750; }
+#navbar div.navbaroff, #navbar div.navbaron { float:left; display:block; }
+#navbar a { display:block; font-family:verdana,arial; color:#FFF; text-decoration:none; font-size:13px; background:#81BEF7 url(images/bluewave.jpeg); white-space:nowrap; }
+#navbar a span { display:block; padding:7 11 7 10; background:url() right top no-repeat; }
+#navbar div.navbaroff a:hover { background-color:#0174DF; background-position:left -50; }
+#navbar div.navbaron a { background-color:#3B6A1A; background-position:left -50; }
+
+.clear { clear:both; }
+.clear0 { clear:both; height:0; }
+
+/* Home */
+#hw1 { padding:20 20 10 20; }
+#hw2 { width:710; }
+
+.homebox { }
+.homebox1 { background:url(images/bluewave.jpeg) left top repeat-y; }
+.homebox2 { background:url(images/bluewave.jpeg) left top no-repeat; }
+.homebox3 { background:url(images/bluewave.jpeg) left bottom no-repeat; padding:10 10; }
+.homebox4 { width:690; }
+.homeboxw { background:white; height:15; }
+/* Forms */
+.promofieldgray { font-family:verdana; font-size:9px; color:#999; width:140; }
+.errMsg, .errMsg A { font-family:verdana,arial,helvetica; font-size:11px; color:#900; }
+.form-errors { margin-bottom:15px; }
+.form-error { padding:0 0 8 15; font-family:verdana,arial,helvetica; font-size:16px; color:#C00; background:url(images/bluewave.jpeg) no-repeat; background-position:0px 2px; }
+
+
+/* Content */
+#cw1 { width:100%; background:url(images/bluewave.jpeg) repeat-y; min-height:475; _height:475; }
+#cc1 { padding:20 30 20 0; float:right; }
+#cc2 { width:520; }
+
+
+/* Left Channel */
+#lc1 { width:150; padding:20 0 0 0; float:left; }
+.leftnav { width:150; }
+.leftnav div { margin-bottom:4; }
+.leftnav div a { display:block; font-family:verdana,arial; color:#666; text-decoration:none; font-size:11px; background:#E8E8E8 url(images/bluewave.jpeg) left top no-repeat; }
+.leftnav div a span { display:block; padding:8 10 8 35; background:url(images/bluewave.jpeg) left bottom no-repeat; }
+.leftnav div.off a:hover { background-color:#D8D8D8; background-position:-200 0; }
+.leftnav div.off a:hover span { background-position:-200 bottom; }
+
+.leftnav div.on a { color:#FFF; background-color:#4D92CD; background-image:url(images/bluewave.jpeg); }
+.leftnav div.on a span { background-image:url(images/bluewave.jpeg); }
+
+
+/** Content **/
+
+/* ColorText */
+.bluetext, .blueboldtext, .greentext, .greenboldtext { font-family:century gothic, arial, verdana, helvetica, sans-serif; font-weight:normal; }
+.bluetext { color:#0062B7; }
+.greentext { color:#60B112; }
+.blueboldtext { color:#0062B7; font-weight:bold; }
+.greenboldtext { color:#60B112; font-weight:bold; }
+
+.tquote1a { position:relative; }
+.tquote1b { position:absolute; left:-20; }
+.tquote2a { float:right; position:relative; }
+.tquote2b { position:absolute; left:-24; top:-24; }
+
+.testimonial     { padding:10 0;  }
+.testimonialcell { background-color:#2374BF; }
+.testimonialtext { font-family:verdana,arial; padding:8 25 8 25; font-size:10px; line-height:16px; color:white; }
+.testimonialname { font-family:verdana,arial; padding:5 25 0 25; font-size:10px; font-weight:bold; color:white;}
+.testimonialcity { font-family:verdana,arial; padding:2 25 10 25; font-size:10px; color:white; }
+
+
+.fgtop { padding-right:10px; }
+.fglasttop { padding-right:0px; }
+.fgcell, .fglastcell { background:url(images/bluewave.jpeg) repeat-y; padding-right:10px; }
+.fglastcell { padding-right:0px; }
+.fglabel { background:#B4D6F1; color:#00529B; margin:0 1; padding:4 10; font-family:century gothic,verdana,arial; font-size:14px; font-weight:bold; text-align:center; }
+.fgbox { padding:10 0; }
+.fgtext { padding:10; font-family:verdana,arial; font-size:10px; color:#666; background:url(images/bluewave.jpeg) 1 top no-repeat; }
+.fgbutton a { background:url(images/bluewave.jpeg) no-repeat top left; display:block; }
+.fgbutton a:hover { background-position:0 -30; }
+
+
+
+
+.linktree { margin-bottom:15; }
+.linktree2 { margin-bottom:20; }
+.linktree3 { margin-bottom:10; }
+.linktreetext1 { margin:0 0 5 0;  }
+.linktreetext2 { margin:0 0 5 20; }
+.linktreetext3 { margin:0 0 5 40; }
+.linktreetext1, .linktreetext1 a { font-family:verdana,arial; color:#333; font-size:13px; font-weight:bold; }
+.linktreetext2, .linktreetext2 a { font-family:verdana,arial; color:#333; font-size:13px; }
+.linktreetext3, .linktreetext3 a { font-family:verdana,arial; color:#333; font-size:11px; }
+.linktree a { color:#1D4F99; xtext-decoration:none; }

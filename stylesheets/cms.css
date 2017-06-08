@@ -1,0 +1,32 @@
+
+P { margin-top:0px; }
+
+H1,H2,H3,H4,.h1,.h2,.h3,.h4 { font-family:verdana,arial,verdana,helvetica; margin:0 0 5 0; }
+H1,.h1 { font-size:26px; color:#4A4ACC; font-weight:normal; margin:0 0 15 0; } 
+H2,.h2 { font-size:18px; color:#333; }
+H3,.h3 { font-size:16px; color:#333; font-weight:normal; }
+H4,.h4 { font-size:12px; color:#333; font-weight:bold; }
+
+.bodycopy, .copy, .listitem, .listnumber, .caption, .linkdesc, .linkitem, .linkitem a { font-family:verdana,arial,helvetica; font-size:12px; color:#666; text-decoration:none; }
+.bodycopy   { line-height:16px; }
+.caption    { font-size:10px; }
+
+
+.listitem   { margin-bottom:3px; }
+.listnumber { font-weight:bold; padding-right:2; }
+.listbullet { padding-left:18; background:url(images/bullet.jpeg) no-repeat; background-position:4 7; }
+
+.linkitem   { margin-bottom:0; }
+.linkitemh  { padding-right:15px; }
+.linkdesc   { padding:0 0 15 18;}
+.linkitem a { background:url(images/bullet.jpeg) no-repeat; background-position:4 6; color:#0062B7; padding:3 0 3 18; display:block; }
+.linkitem a:hover { color:#333; background-image:url(images/bullet.jpeg);  }
+.linkitemedit a { background-position:4 8; }
+
+.hrule { background:#CCC; }
+
+.table { /* background-color:#CCC; */ }
+.tablecell, .titlerow, .titlecolumn { font-family:verdana,arial,helvetica; }
+.tablecell { font-size:11px; color: #333; background-color:#E8E8E8; }
+.titlerow { font-size:11px; font-weight: bold; color:#FFF; background-color:#0783AC; text-transform:uppercase;}
+.titlecolumn { font-size:11px; font-weight: bold; color:#333; background-color:#CCC; text-transform:uppercase;}
